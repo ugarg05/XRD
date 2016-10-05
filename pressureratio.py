@@ -11,8 +11,8 @@ pl.scatter(region,ratio)
 
 
 y = np.array([0,10])
-pl.semilogx( y*1. + 6.5e5, y, linestyle=":", color="red",linewidth=2)
-pl.semilogx( y*1. + 6.5e7, y, linestyle=":", color="red",linewidth=2)
+pl.semilogx( y*3. + 6.5e5, y, linestyle=":", color="red",linewidth=2)
+pl.semilogx( y*3. + 6.5e7, y, linestyle=":", color="red",linewidth=2)
 
 pl.xlabel("$\\lambda\\,{\\rm [cm]}$",fontsize=18)
 
