@@ -11,8 +11,12 @@ pl.scatter(region,ratio)
 
 
 y = np.array([0,10])
+<<<<<<< HEAD
 pl.semilogx( y*40. + 6.5e5, y, linestyle=":", color="red",linewidth=2)
 
+=======
+pl.semilogx( y*100. + 6.5e5, y, linestyle=":", color="red",linewidth=2)
+>>>>>>> Reitveld
 
 pl.xlabel("$\\lambda\\,{\\rm [cm]}$",fontsize=18)
 
